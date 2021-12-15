@@ -1,0 +1,12 @@
+Solution to Jira Api Request
+Much test wasn't written for it. But the basics covers errors and correct response
+
+1.) To setup: Enter npm install at the terminal of root solution(cd challenge_2_solution)
+npm install
+
+2.) To run test enter npm run test, it uses jest for assertions and sinon for stubbing
+npm run test
+
+
+3.) To display solution at the console, enter npm start
+npm start

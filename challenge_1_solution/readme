@@ -1,0 +1,18 @@
+Solution to Firts letter capital challenge
+It has a good test coverage
+
+
+
+1.) To setup: Enter npm install at the terminal of root solution(cd challenge_1_solution)
+npm install
+
+2.) To run test enter npm run test, it uses jest for assertions and sinon for stubbing
+npm run test
+
+
+3) To use library, just require it and call the isFirstLetterUpper function
+
+const isCapital = require('./index');
+isCapital.isFirstLetterUpper("Sola") => true
+isCapital.isFirstLetterUpper("sola") => false
+isCapital.isFirstLetterUpper() => should throw error

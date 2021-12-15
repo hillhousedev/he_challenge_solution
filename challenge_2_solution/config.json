@@ -1,0 +1,5 @@
+{
+    "Url": "https://herocoders.atlassian.net",
+    "ComponentsEndPoint": "/rest/api/3/project/IC/components",
+    "SearchEndPoint": "/rest/api/3/search?pagelen=1&jql=project%20%3D%20IC%20AND%20component%20%3D%20"
+}

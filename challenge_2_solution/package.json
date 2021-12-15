@@ -1,0 +1,35 @@
+{
+  "name": "challenge_2_solution",
+  "version": "1.0.0",
+  "description": "A Jira service to get issues assigned components lead ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "NODE_ENV=production node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hillhousedev/he_challenge_solution.git"
+  },
+  "keywords": [
+    "jira",
+    "lead",
+    "component",
+    "issues",
+    "project",
+    "node-fetch"
+  ],
+  "author": "Adesemoye Olusola Ayokunle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hillhousedev/he_challenge_solution/issues"
+  },
+  "homepage": "https://github.com/hillhousedev/he_challenge_solution#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "jest": "^27.4.5",
+    "node-fetch": "^2.6.1",
+    "sinon": "^12.0.1",
+    "superagent": "^6.1.0"
+  }
+}
